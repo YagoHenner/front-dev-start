@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Front-Dev-Start by Yago Henner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project serves as a template for web software systems. It provides a starting point for building systems using **React**, **TypeScript**, **TailwindCSS**, and **Vite** as the main pillars.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
 
-## Expanding the ESLint configuration
+- **React**: A JavaScript library for building user interfaces;
+- **TypeScript**: A strongly typed superset of JavaScript that adds static types;
+- **TailwindCSS**: A utility-first CSS framework for rapidly building custom user interfaces;
+- **Vite**: A build tool that aims to provide a faster and leaner development experience for modern web projects;
+- Also comes with some Shadcn components built in. I like them.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository**
+    ```
+    git clone https://github.com/YagoHenner/front-dev-start.git
+    ```
+2. **Install dependencies**
+    ```
+    npm install
+    yarn
+    ```
+3. **Start the development server**
+    ```
+    npm run dev
+    yarn dev
+    Note: If you are running an Node Version under v18.2, you'll have to upgrade or at least add '--ignore-engines' to the command
+    ```
+4. **Get to Work!**
+    
